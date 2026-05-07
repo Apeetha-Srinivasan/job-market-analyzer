@@ -9,7 +9,7 @@ job_data = { "Job_ID": [1, 2, 3, 4, 5],
 "Excel SQL PowerBI",
 "Python SQL Spark",
 "Python ML DeepLearning"]}
-#print(job_data)
+print(job_data)
 
 
 #-------------------------------------------------------------------------------------------------------

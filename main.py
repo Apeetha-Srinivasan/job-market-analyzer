@@ -44,13 +44,13 @@ def add_job_postings(job_data):
         else:
             skills=" ".join(skills_input.split())
 
-    new_id = max_jobID+1
-    max_jobID+=1
+        new_id = max_jobID+1
+        max_jobID+=1
 
-    job_data['Job_ID'].append(new_id)
-    job_data['Role'].append(role)
-    job_data['Company'].append(company)
-    job_data['Skills'].append(skills)
+        job_data['Job_ID'].append(new_id)
+        job_data['Role'].append(role)
+        job_data['Company'].append(company)
+        job_data['Skills'].append(skills)
 
 add_job_postings(job_data)
 
